@@ -1,0 +1,127 @@
+/* Reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Element Styling */
+html{
+    background-color: #000;
+}
+
+p{
+    padding: 1.5rem;
+}
+
+/* Utlities */
+.hidden{
+    display: none;
+
+}
+
+#score-board{
+    text-align: right;
+    margin-right: 2rem;
+    font-size: 2rem;
+    color: #fff;
+}
+
+#score-board div{
+    display: inline-block;
+    justify-content: center;
+}
+
+#game-box{
+    width: 75%;
+    margin: auto ;
+    text-align: center;
+    /* border: white 5px inset; */
+}
+
+.game-btn{
+    height:8rem;
+    width: 8rem;
+    cursor:pointer;
+    margin: 2rem;
+    border-radius: 10%;
+}
+
+/* .game-btn:hover{
+    border: #fff 2px solid;
+} */
+
+.red-btn{
+    background: #d46178;
+    border: none;
+    box-shadow: 0px 0px 0px #DC143C;;
+    transition: box-shadow .5s;
+}
+
+.red-glow{
+    background: #DC143C;
+    box-shadow: 0px 0px 80px #ff4167;
+} 
+
+.green-btn{
+    background: #70ce70;
+    border: none;
+    box-shadow: 0px 0px 0px #32CD32;
+    transition: box-shadow .5s;
+}
+
+.green-glow{
+    background: #32CD32;
+    box-shadow: 0px 0px 80px #32CD32;
+}
+
+.blue-btn{
+    background: #80c0ff;
+    border: none;
+    box-shadow: 0px 0px 0px #1E90FF;
+    transition: box-shadow .5s;
+}
+
+.blue-glow{
+    background: #1E90FF;
+    box-shadow: 0px 0px 80px #1E90FF;
+   
+}
+
+.yellow-btn{
+    background: #ffe96e;
+    border: none;
+    box-shadow: 0px 0px 0px #FFD700;
+    transition: box-shadow .5s;
+}
+
+.yellow-glow{
+    background: #FFD700;
+    box-shadow: 0px 0px 80px #FFD700;
+}
+    
+#display{
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    width: 50%;
+    margin: auto;
+}
+
+#start-button{
+    background: transparent;
+    color: #fff;
+    padding: 1rem;
+    font-size: 2.5rem;
+    border: 2px #fff solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#rules{
+    font-size: 1rem;
+    text-align: center;
+    width: 50%;
+    margin: 1.3rem auto;
+}
+

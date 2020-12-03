@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <main>
+  <section id="score-board">
+    <div>
+      <p>Current Score:<span id="current-score">0</span></p>
+      <p>High Score:<span id="hi-score">0</span></p>
+    </div>
+  </section>
+ 
+    <div id="game-box">
+      <button id="red" class="red-btn game-btn active"></button>
+      <button id="green" class="green-btn game-btn"></button>
+      <button id="blue" class="blue-btn game-btn"></button>
+      <button id="yellow" class="yellow-btn game-btn"></button>
+    </div>
+
+    <section id="display">
+      <button id=start-button>Start</button>
+      <span id="action-span"></span>
+      <div id="rules">
+        Follow the pattern of lights and sounds and repeat the same combination to move on to the next round.
+      </div>
+    </section>
+  </main>
+  
+  <script src="simon.js"></script>
+</body>
+</html>
