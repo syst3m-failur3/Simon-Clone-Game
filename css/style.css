@@ -14,10 +14,8 @@ p{
     padding: 1.5rem;
 }
 
-/* Utlities */
 .hidden{
     display: none;
-
 }
 
 #score-board{
@@ -36,7 +34,6 @@ p{
     width: 75%;
     margin: auto ;
     text-align: center;
-    /* border: white 5px inset; */
 }
 
 .game-btn{
@@ -46,10 +43,6 @@ p{
     margin: 2rem;
     border-radius: 10%;
 }
-
-/* .game-btn:hover{
-    border: #fff 2px solid;
-} */
 
 .red-btn{
     background: #d46178;
